@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="hu.ait.android.emotiontracker.MainActivity">
+
+    <Button
+        android:id="@+id/btnAction"
+        android:layout_width="250dp"
+        android:layout_height="130dp"
+        android:text="What do you want to do?"
+        android:layout_marginTop="111dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/btnFeel"
+        android:layout_alignStart="@+id/btnFeel" />
+
+    <Button
+        android:id="@+id/btnFeel"
+        android:layout_width="250dp"
+        android:layout_height="130dp"
+        android:text="How do you feel?"
+        android:layout_below="@+id/btnAction"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp" />
+
+</RelativeLayout>
